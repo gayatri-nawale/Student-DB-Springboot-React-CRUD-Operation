@@ -35,38 +35,38 @@ This project demonstrates CRUD operations, REST APIs, and frontend–backend int
 ```
 Spring-boot---REST-main/
 │
-├── src/ # Spring Boot backend source
+├── src/ 
 │ └── main/
 │ └── java/
 │ └── com/gayatri/studentManagement/
-│ ├── controllers/ # REST controllers (APIs)
+│ ├── controllers/ 
 │ │ └── StudentController.java
-│ ├── models/ # Entity / model classes
+│ ├── models
 │ │ └── Student.java
-│ ├── repository/ # JPA repositories
+│ ├── repository/
 │ │ └── StudentRepo.java
-│ ├── services/ # Business logic
+│ ├── services/ 
 │ │ └── StudentService.java
 │ └── StudentManagementApplication.java
 │
-├── student-frontend/ # React frontend
+├── student-frontend/ 
 │ ├── public/
 │ ├── src/
-│ │ ├── pages/ # React pages
+│ │ ├── pages/ 
 │ │ │ ├── Home.js
 │ │ │ ├── AddStudent.js
 │ │ │ ├── EditStudent.js
 │ │ │ ├── DeleteStudent.js
 │ │ │ └── ViewStudents.js
-│ │ ├── api.js # API calls to backend
-│ │ ├── App.js # Main React component
+│ │ ├── api.js 
+│ │ ├── App.js
 │ │ ├── App.css
-│ │ └── index.js # React entry point
-│ ├── package.json # Frontend dependencies
+│ │ └── index.js 
+│ ├── package.json 
 │ └── package-lock.json
 │
-├── .mvn/ # Maven wrapper files
-├── pom.xml # Backend dependencies
+├── .mvn/ 
+├── pom.xml 
 ├── mvnw
 ├── mvnw.cmd
 ├── .gitignore
