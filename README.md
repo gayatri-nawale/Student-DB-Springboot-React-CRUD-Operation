@@ -32,7 +32,7 @@ This project demonstrates CRUD operations, REST APIs, and frontend–backend int
 
 
 ## Project Structure
-
+```
 Spring-boot---REST-main/
 │
 ├── src/ # Spring Boot backend source
@@ -72,7 +72,7 @@ Spring-boot---REST-main/
 ├── .gitignore
 └── README.md
 
-
+```
 ## How to Download and Setup
 
 1. Click **Code → Download ZIP** from this GitHub repository  
